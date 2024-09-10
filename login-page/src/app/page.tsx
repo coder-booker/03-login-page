@@ -5,8 +5,9 @@ import EmailForm from "@/components/EmailForm/EmailForm";
 export default function Home() {
   return (
     <div className={styles.home}>
-      <header>
-        {/* ... */}
+      <header className={styles.header}>
+        Triple Uni <br/>
+        Q3
       </header>
       
       <main className={styles.main}>
